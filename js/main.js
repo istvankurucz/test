@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-	loadTemplate("headerContainer", "./templates/header.html");
+	loadTemplate("headerContainer", "../templates/header.html");
 });
 
 async function loadTemplate(containerId, templateUrl) {
