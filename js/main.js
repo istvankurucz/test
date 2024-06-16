@@ -11,6 +11,8 @@ async function loadTemplate(containerId, templateUrl) {
 
 		const template = await res.text();
 		document.getElementById(containerId).innerHTML = template;
+
+		window.scrollTo(0, 0);
 	} catch (e) {
 		console.error("There has been a problem with your fetch operation:", e);
 	}
